@@ -9,9 +9,21 @@ This application is created with a ***PERN*** stack. (postgreSQL, Express, React
 ## **Run Instructions**
 
 1. Download or Fork repository
-1. In your terminal, open 3 tabs
-   1. In your first tab navigate to the gohybrid directory
+1. In your terminal, open 2 tabs
+1. In your **FIRST** tab navigate to the gohybrid directory
    1. Change directory into the 'gohybrid-express' directory and run 'npm install'
-   1. 
-   1. test
-1. Aft
+   1. After installation of node modules are complete go into postgreSQL and create a database for gohybrid, then you can exit.
+   1. Navigate to gohybrid-express/models/conn.js
+   1. Edit the conn.js files with your host, database, and user
+   1. Go back to the terminal and enter the command 'npm run dev'. Our backend should be up and running.
+1. In your **SECOND** tab navigate to the gohybrid directory
+   1. Change directory into the 'gohybrid-react' directory and run 'npm install'
+   1. Run the command 'npm start'. In the prompt, type 'Y'. Our frontend end should be up and running! You can stop here if you're not testing
+
+## **Cypress Testing Instructions**
+
+1. Follow all the steps above.
+1. Open another tab in your terminal.
+1. In your tab navigate to the gohybrid directory
+1. Change directory into the 'gohybrid-react' directory
+1. Run the command 'npm run cypress'
