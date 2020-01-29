@@ -1,0 +1,109 @@
+.navbar {
+  background-color: #012069;
+}
+
+.navLogo {
+  height: 30px;
+}
+
+.usersCard {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.users-alert {
+  margin-top: 25px;
+}
+
+#carLookUpContainer {
+  padding: 0;
+  /* width: 100%;
+  max-width: 100%; */
+  margin: 40px auto 100px;
+  height: 100%;
+  padding: 20px 5px;
+}
+
+#searchContainer {
+  margin: 0 10px;
+}
+
+#searchContainer .form-control {
+  margin: 15px 0;
+}
+
+#sideBar {
+  border: 1px solid red;
+  width: 20%;
+}
+
+#mainContainer {
+  width: 80%;
+}
+
+.searchParameters {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.searchParameters p {
+  min-width: 100px;
+  text-align: center;
+}
+
+.carModels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carCard {
+  flex-basis: 150px;
+  min-width: 100px;
+  margin: 10px;
+}
+
+.carCard .card {
+  height: 100%;
+}
+
+#compareModelsContainer {
+  margin: 20px auto 80px;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+}
+
+.compareModelMainImage {
+  max-width: 450px;
+  margin: 20px auto;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background: linear-gradient(#012169, #0f3485);
+}
+
+.footerInfo {
+  text-align: center;
+}
