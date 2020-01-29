@@ -22,6 +22,9 @@ describe('Login Page Tests', () => {
       // Testing if we don't get a response from our API.
       // Have to find a way to expect the response status of 404 or 
       // intercept failed trying to load. This test will fail for the time being.
+      //
+      // To replicate what I wanted to test by the request failing, stop running gohybrid-express 
+      // and reload the react application.
 
       cy.contains('Sign In')
          .click()
